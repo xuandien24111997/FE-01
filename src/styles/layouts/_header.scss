@@ -288,11 +288,9 @@ ul.item-cart {
     
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 390px) {
   .header{
-    img{
-      // width: auto !important;
-    }
+    
     .head-logo img {
       max-width: 130px !important;
       margin-left: 25px;
