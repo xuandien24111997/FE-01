@@ -1,0 +1,67 @@
+.about {
+  margin-bottom: 4.5rem;
+  .path {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-top: 4rem;
+    border-bottom: 1px dashed #e6e6e6;
+    margin-bottom: 2rem;
+
+    .path__name {
+      color: #737373;
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+    }
+
+    .path__name:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: #789629;
+    }
+
+    .path__name:not(:last-child)::after {
+      content: ">";
+      font-family: "Font Awesome 5 Free";
+      font-size: 9px;
+      font-weight: 900;
+      margin: 0 5px;
+    }
+
+    .path__name:last-child {
+      color: #789629;
+    }
+  }
+
+  .about__wrap {
+    h3 {
+      margin-bottom: 1.8rem;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+
+    .about__content {
+      margin-top: 1.4rem;
+
+      h3 {
+        margin-top: 1.8rem;
+        margin-bottom: 1.8rem;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .about__text {
+        color: #4b4b4b;
+        font-size: 12px;
+        line-height: 20px;
+      }
+
+      .about__link {
+        display: block;
+        margin-top: 1.5rem;
+        color: #818181;
+        font-size: 12px;
+      }
+    }
+  }
+}

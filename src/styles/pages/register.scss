@@ -1,0 +1,107 @@
+.section__register {
+    margin-bottom: 6rem;
+    .path {
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
+      margin-top: 4rem;
+      border-bottom: 1px dashed #e6e6e6;
+      margin-bottom: 2rem;
+      .path__name {
+        color: #737373;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+      }
+      .path__name:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #789629;
+      }
+      .path__name:not(:last-child)::after {
+        content: ">";
+        font-family: "Font Awesome 5 Free";
+        font-size: 9px;
+        font-weight: 900;
+        margin: 0 5px;
+      }
+      .path__name:last-child {
+        color: #789629;
+      }
+    }
+    .register__wrapper {
+      h3 {
+        font-size: 28px;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+      }
+      form {
+        padding: 4rem 3rem;
+        padding-top: 5px;
+        background-color: #f2f2f2;
+        h4 {
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+          font-size: 18px;
+          text-transform: uppercase;
+        }
+        .form__group {
+          label {
+            margin: 0.5rem 0;
+            font-size: 12px;
+            span {
+              margin-left: 5px;
+            }
+          }
+          .form__input {
+            padding: 4px;
+            width: 100%;
+            border: 1px solid #e6e6e6;
+            color: #737373;
+            font-size: 14px;
+            outline: none;
+            resize: none;
+          }
+        }
+        .form__announce {
+          display: flex;
+          margin-top: 1rem;
+          #announce {
+            opacity: 0.4;
+          }
+          .form__lable {
+            margin: 0;
+            margin-top: 5px;
+            margin-left: 5px;
+            font-size: 12px;
+          }
+        }
+        .form__buttons {
+          margin-top: 1.5rem;
+          display: flex;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          .form__link {
+            margin-right: 2.5rem;
+            color: #000;
+            font-size: 12px;
+          }
+          .btn-submit {
+            padding: 10px 15px;
+            border-radius: 0;
+            font-size: 12px;
+            color: #fff;
+            background-color: #000;
+            border: 2px solid #e6e6e6;
+            text-transform: uppercase;
+            img {
+              margin-right: 5px;
+              filter: invert(1);
+            }
+          }
+          .btn-submit:hover {
+            background-color: #789629;
+          }
+        }
+      }
+    }
+  }
+  

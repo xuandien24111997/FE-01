@@ -1,9 +1,20 @@
 @import "base/base";
-
+////////////////
 @import "helpers/variables";
 @import "helpers/mixins";
-
+///////////////
 @import "layouts/header";
 @import "layouts/footer";
-
+///////////
 @import "pages/home";
+@import "pages/product";
+@import "pages/productDetail";
+@import "pages/about";
+@import "pages/blog";
+@import "pages/blogDetail";
+@import "pages/cart";
+@import "pages/notPage";
+@import "pages/contact";
+@import "pages/login";
+@import "pages/register";
+@import "pages/account";

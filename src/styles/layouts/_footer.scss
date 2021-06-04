@@ -1,3 +1,41 @@
 .footer {
-  color: aqua;
+  background-color: #131313;
+  color: #494949;
+}
+p.top_contact-title{
+  color: #d1d1d1;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.footer-top {
+  padding: 10px;
+}
+.li_footer{
+  padding: 10px 0;
+  font-size: 12px;
+}
+.li_footer:hover {
+  color: #789629;
+  list-style: square;
+}
+.footer-algin-center{
+  border-top: 1px solid #83828279;
+}
+.footer-bottom.row {
+  padding: 10px;
+}
+.footer-bottom_left {
+  font-weight: 600;
+  line-height: 25px;
+  border-top: 1px solid #131313;
+  color: #494949;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+@media only screen and (max-width: 481px) {
+  .justify-content-end {
+    justify-content: end !important;
+}
+  
 }
