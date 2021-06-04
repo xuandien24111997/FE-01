@@ -800,6 +800,9 @@
       max-width: 100%;
       height: auto;
     }
+    .bestseller__title {
+      display: none;
+    }
     .banner {
       flex-wrap: inherit;
       .banner__wrapper-product {
@@ -881,6 +884,21 @@
      .head-item {
       margin-top: 25px;
     }
+    .slide__product {
+      padding: 30px 100px;
+  }
   
   }
+}
+@media only screen and (max-width: 380px) {
+  .home {
+    .slide__product {
+      padding: 30px 74px !important;
+    }
+    .bestseller__title {
+      display: none;
+    }
+
+  }
+  
 }

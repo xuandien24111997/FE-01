@@ -247,13 +247,14 @@ ul.item-cart {
     }
     .head-logo img {
       width: 100%;
-      max-width: 180px;
+      margin-top: 15px !important;
+      max-width: 110px;
       margin-left: 25px;
     }
     .head-item {
       padding: 0px;
       margin-right: 35px;
-      margin-top: 35px;
+      margin-top: 40px;
     }
   }
 }
@@ -273,17 +274,36 @@ ul.item-cart {
 @media only screen and (max-width: 480px) {
   .header{
     img{
-      width: auto !important;
+      // width: auto !important;
     }
     .head-logo img {
       max-width: 180px;
+      margin-left: 25px;
+      margin-top: 20px;
+    }
+    .head-item {
+      padding: 15px 0px 0px 0px;
+      margin-right: 35px;
+      margin-top: 27px;
+    }
+    
+  }
+}
+@media only screen and (max-width: 380px) {
+  .header{
+    img{
+      // width: auto !important;
+    }
+    .head-logo img {
+      max-width: 130px !important;
       margin-left: 25px;
     }
     .head-item {
       padding: 15px 0px 0px 0px;
       margin-right: 35px;
+      margin-top: 14px;
     }
     
   }
+  
 }
-
