@@ -78,7 +78,12 @@ function Products() {
           </div>
           <div className="item__content">
             <p className="item__title">{product.title}</p>
-            <p className="item__name">Mỹ phẩm châu Âu</p>
+            <Link to="/product-detail" >
+             <p className="item__name">Mỹ phẩm châu Âu</p>
+            </Link>
+
+           
+
             <p className="line"></p>
             <p className="item__price">
               <p>
